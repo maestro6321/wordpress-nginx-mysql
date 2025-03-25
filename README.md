@@ -5,20 +5,20 @@ To install Project Title, follow these steps:
 1. Clone the repository: **`https://github.com/maestro6321/wordpress-nginx-mysql.git`**
 2. Navigate to the project directory: **`cd project-title`**
 > [!IMPORTANT]
->3.Create .env file (update passwords as needed):
->```bash
->DB_ROOT_PASSWORD=secure_root_pass
->DB_NAME=wordpress
->DB_USER=wp_user
->DB_PASSWORD=secure_db_pass
->```
+> 3. Create .env file (update passwords as needed):
+> ```bash
+> DB_ROOT_PASSWORD=secure_root_pass
+> DB_NAME=wordpress
+> DB_USER=wp_user
+> DB_PASSWORD=secure_db_pass
+> ```
 
 > [!TIP]
-> 4.Start the containers:
->```bash
+> 4. Start the containers:
+> ```bash
 > docker-compose up -d
->```
->5.Access WordPress in your browser at http://localhost
+> ```
+> 5. Access WordPress in your browser at http://localhost
 
 > [!WARNING]
 > 1. Replace placeholder passwords in .env with secure ones.
